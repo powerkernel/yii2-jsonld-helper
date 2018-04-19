@@ -1,5 +1,5 @@
 {
-    "name": "nirvana-msu/yii2-jsonld-helper",
+    "name": "powerkernel/yii2-jsonld-helper",
     "description": "JsonLD Helper class for Yii2",
     "keywords": [
         "yii2",
@@ -8,8 +8,8 @@
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/nirvana-msu/yii2-jsonld-helper/issues",
-        "source": "https://github.com/nirvana-msu/yii2-jsonld-helper"
+        "issues": "https://github.com/powerkernel/yii2-jsonld-helper/issues",
+        "source": "https://github.com/powerkernel/yii2-jsonld-helper"
     },
     "authors": [
         {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nirvana\\jsonld\\": ""
+            "powerkernel\\jsonld\\": "src"
         }
     },
     "extra": {
