@@ -1,39 +1,35 @@
 {
-    "name": "powerkernel/yii2-jsonld-helper",
-    "description": "JsonLD Helper class for Yii2",
-    "keywords": [
-        "yii2",
-        "JsonLD"
-    ],
-    "type": "yii2-extension",
-    "license": "MIT",
-    "support": {
-        "issues": "https://github.com/powerkernel/yii2-jsonld-helper/issues",
-        "source": "https://github.com/powerkernel/yii2-jsonld-helper"
-    },
-    "authors": [
-        {
-            "name": "Alexander Stepanov",
-            "email": "student_vmk@mail.ru"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "*"
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:whikloj/JsonLD.git"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "powerkernel\\jsonld\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
+  "name": "powerkernel/yii2-jsonld-helper",
+  "description": "JsonLD Helper class for Yii2",
+  "keywords": [
+    "yii2",
+    "JsonLD"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/powerkernel/yii2-jsonld-helper/issues",
+    "source": "https://github.com/powerkernel/yii2-jsonld-helper"
+  },
+  "authors": [
+    {
+      "name": "Alexander Stepanov",
+      "email": "student_vmk@mail.ru"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "powerkernel/json-ld": "*"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:whikloj/JsonLD.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "powerkernel\\jsonld\\": "src"
+    }
+  }
 }
