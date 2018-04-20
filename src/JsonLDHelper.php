@@ -5,10 +5,10 @@
  * @license MIT
  */
 
-namespace nirvana\jsonld;
+namespace powerkernel\jsonld;
 
 use Yii;
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use ML\JsonLD\JsonLD;
@@ -18,7 +18,7 @@ use ML\JsonLD\JsonLD;
  *
  * @author Alexander Stepanov <student_vmk@mail.ru>
  */
-class JsonLDHelper extends Object
+class JsonLDHelper extends BaseObject
 {
     /**
      * Adds BreadcrumbList schema.org markup based on the application view `breadcrumbs` parameter

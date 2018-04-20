@@ -19,8 +19,14 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "ml/json-ld": "1.*"
+        "whikloj/JsonLD": "fix-php-72"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:whikloj/JsonLD.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "powerkernel\\jsonld\\": "src"
