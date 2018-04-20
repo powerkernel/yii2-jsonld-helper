@@ -21,12 +21,6 @@
     "yiisoft/yii2": "*",
     "powerkernel/json-ld": "*"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:whikloj/JsonLD.git"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "powerkernel\\jsonld\\": "src"

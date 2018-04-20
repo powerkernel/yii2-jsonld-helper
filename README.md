@@ -16,7 +16,7 @@ Add extension to your `composer.json` and update your dependencies as usual, e.g
 ```js
 {
     "require": {
-        "nirvana-msu/yii2-jsonld-helper": "1.0.*@dev"
+        "powerkernel/yii2-jsonld-helper": "*"
     }
 }
 ```
