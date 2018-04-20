@@ -18,8 +18,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "whikloj/JsonLD": "fix-php-72@dev"
+        "yiisoft/yii2": "*"
     },
     "repositories": [
         {
